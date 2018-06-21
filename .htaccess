@@ -1,0 +1,10 @@
+# disable directory listing
+Options -Indexes
+
+# default charset should be UTF-8
+AddDefaultCharset utf-8
+
+# enable gzip compression
+<IfModule mod_deflate.c>
+	AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/x-javascript text/javascript application/javascript application/json
+</IfModule>

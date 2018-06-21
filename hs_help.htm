@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=yes">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="geo.css" type="text/css">
+<title>Hunting Season Help</title>
+<style type="text/css">
+ol img {border: 5px solid black;}
+ol {font-weight: bold;}
+ol p, ol dd, ol ul {font-weight: normal; margin-bottom: 1em}
+#toc {padding: 0px;}
+#instruction {font-size: xx-large;}
+#instruction p, #instruction dl, #instruction ul {font-size: medium;}
+#instruction img {max-width: 100%}
+#instruction dt, #instruction ul {text-align: left;} 
+
+</style>
+</head>
+<body>
+<div id="main">
+<h1><span>Lovecká</span> <span class="red">sezóna</span></h1>
+
+<img src="hs_logo.gif">
+
+<h2>Nápověda pro používání apliakce</h2>
+<ol id="toc">
+  <li><a href="#toc-1">Popis ovládacích prvků</a></li>
+  <li><a href="#toc-2">Detaily</a></li>
+  <li><a href="#toc-3">Moje lokace</a></li>
+</ol>
+
+<ol id="instruction">
+  <li id="toc-1">
+  <img src="screenshot/shot_16.jpg">
+  <p>Hlavní částí aplikace je mapa. Tahem po displeji můžete mapu posouvat. Zvětšovací gesto (roztažení prstů) nefunguje, musíte použít táhlo v horní liště.</p>
+  
+  <p>Lišty jsou ze začátku vidět, ale dají se skrýt a znovu objevit klepnutím na mapu.</p>
+  
+  <p>V <b>dolní části</b> jsou tři tlačítka a spodní informační lišta.</p>
+  
+  <dl>
+  <dt>Tlačítko Nahlásit polohu</dt>
+  <dd>Načte aktuální polohu, odešle ji na server a stáhne aktuální seznam bodů a týmů. Pokud ještě nejte přihlášení, 
+  budete muset nejprve zadat svoji registrační mailovou adresu a následně heslo. Je nutné mít před použitím zanutou GPS, napříkald díky aplikaci 
+  <a href="https://play.google.com/store/apps/details?id=com.mygpscoordinates" target="_blank">GPS souřadnice a umístění</a>.</dd>
+  
+  <dt>Tlačítko Obnovit</dt>
+  <dd>Načte aktuální polohu, nikam ji ale neposílá a stáhne aktuální seznam bodů a týmů. Pokud ještě nejte přihlášení, opět se budete muset přihlásit. 
+  Je opět dobré mít zapnutou GPS. Funguje jen do 10 minut od posledního nahlášení polohy, jinak vypíše chybovou hlášku. 
+  </dd>
+  
+  <dt>Tlačítko Nahlásit tým</dt>
+  <dd>Otevře dialogové okno, do kterého můžete zadat <b>tajné slovo</b> chyceného týmu. Slovo se odešle na server a zazamená se, že jste daný tým chytili. 
+    Neodesílá vaši pozici a nestahuje žádná data, takže nahlášením týmu neuvidíte žádné nové informace. 
+  </dd>
+  </dl>
+  
+  <p>Na <b>informační liště</b> je v pořadí zleva doprava:</p>
+  <ul>
+  <li>Čas do dalšího nutného nahlášení polohy (27 minut a 6 sekund)</li>
+  <li>Čas od posledního nahlášení polohy (12 minut a 0 sekund)</li>
+  <li>Poslední známá GPS pozice</li>
+  <li>Přesnost poslední pozice</li>
+  </ul> 
+  
+  <p>V <b>horní části</b> jsou jen dvě tlačítka:<p>
+  
+  <dl>
+  <dt>Tlačítko Odhlásit</dt>
+  <dd>Odhlásít uživatele a smaže všechny dočsané data. Použijte pokud jste se chybně přihlísili.  
+  </dd>
+  
+  <dt>Tlačítko Detail</dt>
+  <dd>Přepne apliakci na seznam hráčů a bodů. Viz <a href="toc-2">Bod 2</a>.  
+  </dd>
+  </dl>
+  
+  <p>Kromě toho je tu i <b>posuvná lišta</b>, díky které se dá mapa <b>zvětšovat a zmenšovat</b>. Číslo vlevo jsou procenta. Mamimálně lze mapu zvětšit na 200% 
+  a zmenšit na 10%. Při změně velikosti se mapa pokusí držete střed mapy na jednom místě. Body a pozice hráčů na mapě se nezvětšují, 
+  mají vždy stejnou velikost.</p>
+  </li>
+  
+  <li id="toc-2">
+  <img src="screenshot/shot_17.jpg">
+  <p>Detail obsahuje seznam hráčů a bodů. Týmy jsou označeny písmeny a body zase čísly. Týmy jsou označeny 
+  (<font color="#DB4A2E">červeně</font>), kromě vašeho týmu, který je (<font color="#5B7D94">modrý</font>). 
+  Body, které můžete získat jsou (<font color="#5BCA2E">zeleně</font>) a body které jste už získali (<font color="#DBB02E">žlutě</font>).</p>
+  
+  <p>U každé položky jsou zobrazeny následující informace:</p>
+  
+  <ul>
+  <li>Označení týmu</li>
+  <li>Vzdálenost od aktuální pozice</li>
+  <li>Azimut</li>
+  <li>Přesnost poslední pozice</li>
+  <li>Čas od posledního nahlášení polohy (15 hodin 45 minut a 44 sekund)</li>
+  </ul>
+  
+  <p>Pokud položku rozklinete uvdíte i poslední GPS polohu a čas posledního nahlášení polohy.</p>
+  
+  <p><b>Tlačítko Ukázat na mapě</b> vás opět předsune na mapu, tak vybraný bod byl ve středu mapy.</p>
+   
+  <p>Seznam bodů nemá narozdíl od hráčů údaj o čase, ale v malém čtverečku vpravo je u každého bodu číslo, které označuje <b>počet týmů, 
+  který již tento bod získalo</b>.</p> 
+  </li>
+  
+  <li id="toc-3">
+  <img src="screenshot/shot_18.jpg">
+  <p>Na posledním obrázku můžete vidět poslední nahlášenou pozici týmu <b>D</b> (je modrý takže je to tým, za který jste aktuálně přihlášeni).</p>
+  </li>
+  
+</ol>
+</div>
+</body>
+</html>

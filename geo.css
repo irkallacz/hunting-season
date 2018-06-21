@@ -1,0 +1,39 @@
+body {text-align: center; font-family: sans-serif; background-color: #9c722b;}
+#map {display: block; margin: 1em auto; position: relative; overflow: hidden; padding: 0px; height: 2044px; width: 1560px;
+border: 1em solid rgb(86,91,4); border-radius: 5em;}
+
+.point {font-weight: bold; text-align: center; padding: 0px; margin: 0px; vertical-align: middle; border: 1px solid black; }
+a.point {text-decoration: none;}
+
+#map .point {position: absolute; 
+  width: 25px; height: 25px; margin-left: -12.5px; margin-top: -12.5px; border-radius: 25px; font-size: 23px; line-height: 25px; 
+  width: 6vw; height: 6vw; border-radius: 6vw; font-size: 5.5vw; margin-left: -3vw; margin-top: -3vw; line-height: 6vw;
+}
+
+#legend {font-size: 3em; width: 1560px; text-align: center; margin: 1em auto; }
+#legend ul {padding: 0px;}
+#legend li {list-style-type: none; margin-bottom: 1ex;} 
+#legend li, .round, input {border-radius: 1em; padding: 1ex 2ex; background-color: rgb(182,148,92); 
+border: 0.3ex solid #e7a205; font-weight: bold;}
+
+#legend .point {width: 1.5em; height: 1.5em; border-radius: 1.5em;
+font-size: 1.2em; line-height: 1.5em; display: inline-block; margin-right: 1ex;}
+
+.player {background-color: rgba(255,0,0,0.5);}
+.current {background-color: rgba(0,102,204,0.5);}
+.poi {background-color: rgba(0,255,0,0.5);}
+.taken {background-color: rgba(255,204,0,0.5);}
+
+#main {margin: 1em auto; width: 100%;}
+#main table {margin: 1em auto; text-align: left;}
+
+h1, h2 {text-transform: uppercase; font-family: 'Arial Black', Arial, sans-serif; text-shadow: 0px 0px 10px white;}
+label {margin-right: 1em}
+a {text-decoration: underline; font-weight: bold; color: black;}
+
+.red {color: #c52026; text-shadow: 0px 0px 10px black;}
+p.red {text-shadow: none;}
+ 
+.warning {background-color: rgb(253,110,4); border: 0.5ex solid black; font-weight: bold; line-height: 1.5em; border-radius: 0.5ex;
+margin: 2em 0px;}
+.warning b {background-color: black; color: rgb(253,110,4); padding: 0px 1ex;} 

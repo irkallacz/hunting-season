@@ -1,0 +1,10 @@
+CACHE MANIFEST
+NETWORK:
+/index.php
+/sign.php
+/refresh.php
+CACHE:
+/geo.css
+/geo.js
+/map.jpg
+/hs_logo.gif
